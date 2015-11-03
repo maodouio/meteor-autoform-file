@@ -78,6 +78,8 @@ Template.afFileUpload.events
 		Session.set 'fileUpload['+name+']', 'delete-file'
 
 Template.afFileUpload.helpers
+	myprint: (data)->
+		console.log data
 	collection: ->
 		@.atts.collection
 	fileUploadAtts: ->

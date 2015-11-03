@@ -1,7 +1,8 @@
 Package.describe({
   summary: "Upload and manage files easily with AutoForm and CollectionFS",
-  version: "1.0.1",
-  git: "http://github.com/yogiben/autoform-file.git"
+  name: 'maodouio:autoform-file',
+  version: "1.0.4",
+  git: "http://github.com/maodouio/autoform-file.git"
 });
 
 Package.onUse(function(api) {
@@ -12,8 +13,8 @@ Package.onUse(function(api) {
     'coffeescript',
     'underscore',
     'templating',
-    'less',
-    'aldeed:autoform@4.0.2'
+    'less@2.5.1',
+    'aldeed:autoform@5.7.1'
     ],
     'client');
 

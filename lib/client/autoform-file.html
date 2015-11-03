@@ -2,7 +2,8 @@
 		<div class="form-group file-upload">
 			{{#if fileUpload name collection label}}
 			{{#with fileUpload name collection label}}
-				{{> UI.dynamic template=template data=data}}
+				<!-- {{> UI.dynamic template=template data=data}} -->
+				<img src="{{data.src}}" width="150px"/>
 			{{/with}}
 			<br/>
 			<a class="file-upload-clear" file-input="{{name}}"><i class="fa fa-times"></i> Remove</a>
